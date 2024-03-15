@@ -1,7 +1,7 @@
-import React, { useState, useRef ,useEffect } from 'react';
+import  { useState, useRef ,useEffect } from 'react';
 import { PlayIcon, PauseIcon } from '@heroicons/react/solid';
 import SearchBox from '../../components/SearchBox/SearchBox';
-import b from '../../assets/images/b.mp4';
+// import b from '../../assets/images/b.mp4';
 import axios from 'axios';
 
 
@@ -37,10 +37,10 @@ const Hero = () => {
     setIsPlaying(!isPlaying);
   };
 
-  const videoSources = [
-    { src: b, type: 'video/mp4' }
-    // Add more video sources if needed
-  ];
+  // const videoSources = [
+  //   { src: b, type: 'video/mp4' }
+  //   // Add more video sources if needed
+  // ];
 
   const renderVideoSources = () => {
     return videos.map((source, index) => (      
