@@ -54,8 +54,7 @@ const Navbar = () => {
                 <a href="/Travel" onClick={() => scrollToSection('travel')} className="hidden sm:block text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium cursor-pointer">Travel</a>
                 <a href="" onClick={() => scrollToSection('destination')} className="hidden sm:block text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium cursor-pointer">Destinations</a>
                 <a href="/Blog" onClick={() => scrollToSection('blog')} className="hidden sm:block text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium cursor-pointer">Blog</a>
-                <a href="/contact" onClick={() => scrollToSection('contact')} className="hidden sm:block text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium cursor-pointer">Contact me</a>
-              </div>
+                 </div>
             </div>
           </div>
 
@@ -72,7 +71,7 @@ const Navbar = () => {
                     </div>
                     <div className="flex items-center">
                       <FaGithub className=" h-6 w-6 text-gray-700 hover:text-white" />
-                      <a href="https://github.com/anchalpandey1" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">GitHub</a>
+                      <a href="https://github.com/neerajpandit/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">GitHub</a>
                     </div>
                   </div>
                 </div>
